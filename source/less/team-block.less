@@ -1,0 +1,22 @@
+.team-block {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  width: 1600px;
+  height: 900px;
+  background-image: url("../img/team-block_bg.png");
+  background-repeat: no-repeat;
+
+  &::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to top, #485563 0%, #29323c 100%);
+		opacity: 0.5;
+  }
+}
+
